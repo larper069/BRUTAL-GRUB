@@ -1,0 +1,42 @@
+
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#F4F1E8"
+
+terminal-font: "Victor Mono Bold 20"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ boot_menu {
+  left = 51%
+  top = 32%
+  width = 45%
+  height = 53%
+  item_font = "Victor Mono Bold 20"
+  selected_item_font = "Victor Mono Bold 20"
+  item_color = "#141414"
+  selected_item_color = "#141414"
+  icon_width = 36
+  icon_height = 36
+  item_icon_space = 12
+  item_height = 52
+  item_padding = 8
+  item_spacing = 8
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ label {
+  left = 51%
+  top = 87%
+  width = 45%
+  height = 32
+  align = "left"
+  id = "__timeout__"
+  text = "AUTO-BOOT IN %d SECONDS"
+  color = "#141414"
+  font = "Victor Mono Bold 20"
+}
