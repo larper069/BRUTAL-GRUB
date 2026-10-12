@@ -18,7 +18,7 @@ terminal-border: "0"
   height = 53%
   item_font = "Victor Mono Bold 20"
   selected_item_font = "Victor Mono Bold 20"
-  item_color = "#141414"
+  item_color = "#ffffff"
   selected_item_color = "#141414"
   icon_width = 36
   icon_height = 36
